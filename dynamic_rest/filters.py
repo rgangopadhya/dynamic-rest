@@ -19,10 +19,7 @@ from dynamic_rest.meta import (
     is_model_field,
     get_related_model
 )
-from dynamic_rest.patches import patch_prefetch_one_level
 from dynamic_rest.related import RelatedObject
-
-patch_prefetch_one_level()
 
 
 def has_joins(queryset):
